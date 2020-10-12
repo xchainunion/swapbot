@@ -105,6 +105,8 @@ export default class Uniswap extends Component {
           this.setState({watchedPairs: this.state.watchedPairs});
         })
       }, 3000);
+    } else {
+      this.setState({loadingVisible: false});
     }
   }
 
