@@ -59,7 +59,7 @@ const asideMenuConfig = [
     children: [
       {
         name: '基本信息',
-        path: '/ffff',
+        path: '/baseInfo',
         icon: 'smile',
       },
       {
