@@ -174,3 +174,9 @@ body, *:not(:empty):not(html):not(span):not(a):not(b):not(option):not(select):no
 
 img {opacity: .7 !important; transition: opacity .2s}
 img:hover, a:hover img, #mpiv-popup {opacity: 1 !important}
+
+.next-nav.next-normal .next-nav-item.next-menu-item {
+    background-color: #464141;
+    color: #f5f2f2;
+  }
+  

@@ -1,5 +1,6 @@
 import BasicLayout from '@/layouts/BasicLayout';
 import Dashboard from '@/pages/Dashboard';
+import Miner from '@/pages/Miner';
 
 const routerConfig = [
   {
@@ -7,8 +8,12 @@ const routerConfig = [
     component: BasicLayout,
     children: [
       {
-        path: '/',
+        path: '/uniswapbot',
         component: Dashboard,
+      },
+      {
+        path: '/',
+        component: Miner,
       },
     ],
   },

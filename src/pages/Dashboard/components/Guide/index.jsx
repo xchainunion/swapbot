@@ -627,3 +627,30 @@ export default class Uniswap extends Component {
   }
 }
 
+
+/*
+
+ const { ChainId, Token, WETH, Fetcher, Trade, TokenAmount, TradeType, Percent, Route } = Uniswap
+  const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
+  const pair = await Fetcher.fetchPairData(DAI, WETH[DAI.chainId])
+  const route = new Route([pair], WETH[DAI.chainId])
+  const amountIn = '1000000000000000000' // 1 WETH
+  const trade = new Trade(route, new TokenAmount(WETH[DAI.chainId], amountIn), TradeType.EXACT_INPUT)
+  console.log(TradeType.EXACT_INPUT)
+  const slippageTolerance = new Percent('50', '10000') // 50 bips, or 0.50%
+  const amountOutMin = trade.minimumAmountOut(slippageTolerance).raw // needs to be converted to e.g. hex
+  const path = [WETH[DAI.chainId].address, DAI.address]
+  const to = '' // should be a checksummed recipient address
+  const deadline = Math.floor(Date.now() / 1000) + 60 * 20 // 20 minutes from the current Unix time
+  const value = trade.inputAmount.raw // // needs to be converted to e.g. hex
+  console.log(value)
+
+
+
+
+const provider = ethers.getDefaultProvider('homestead',  { infura: 'fa5d0f8a05294060b19eb1951bfce5de' });
+
+    const token = new Token(ChainId, tokenAddress, decimal)
+    const pair = await Fetcher.fetchPairData(token, WETH[token.chainId], provider)
+
+*/

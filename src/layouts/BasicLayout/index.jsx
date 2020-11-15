@@ -77,7 +77,7 @@ export default function BasicLayout({ children }) {
         <Shell.Branding>
           <Logo
             //image={logo}
-            text="SwapUni机器人"
+            text="未来世界"
           />
         </Shell.Branding>
         <Shell.Navigation

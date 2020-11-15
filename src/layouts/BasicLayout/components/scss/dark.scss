@@ -32,6 +32,10 @@ $ice-copyright-text-hover-color: $color-brand1-5 !default;
 .ice-design-header-aside-footer-layout-dark.ice-design-layout {
   background-image: url('./images/dark_bg.png');
 }
+.next-nav.next-normal .next-nav-item.next-menu-item {
+  background-color: #464141;
+  color: #f5f2f2;
+}
 
 $theme: 'dark';
 
